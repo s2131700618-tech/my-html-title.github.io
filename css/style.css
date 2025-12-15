@@ -1,0 +1,114 @@
+/* body */
+body {
+    background-color: #fff9de;
+    margin: 0;
+}
+
+/* 網站標題 */
+h1 {
+    font-size: 1em;
+    color: #6b3008;
+    text-align: center;
+}
+
+/* 標題 */
+h2 {
+    text-align: center;
+}
+
+h3 {
+    border-left: solid 6px #6b3008;
+    padding-left: 6px;
+}
+
+/* 回到本頁開頭 */
+.pagetop {
+    text-align: right;
+}
+
+/* 著作權資訊 */
+.copyright {
+    border-top: solid 3px #000000;
+    text-align: center;
+}
+
+/* article */
+article {
+    padding: 32px 16px;
+}
+
+/* 簡介調整了背景色與文字顏色 */
+#profile {
+    background-color: #6b3008;
+    color: #ffffff;
+}
+
+/* section */
+section {
+    margin: 48px 0;
+}
+
+/* 演出者的section */
+.performer {
+    margin: 0 0 24px;
+    overflow: hidden;
+}
+.performer img {
+    float: left;
+    margin: 0 16px 0 0;
+}
+.performer h4 {
+    margin: 0 0 0.5em;
+}
+.performer p {
+    margin: 0;
+}
+
+/* 表格 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td {
+    border: solid 1px #999999;
+    padding: 16px;
+}
+th {
+    background-color: #62d5e8;
+}
+
+/* 列表 */
+ol li {
+    list-style-type: upper-roman;
+}
+
+/* 導覽列 */
+.navigation ul {
+    background-color: #000000;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+}
+.navigation ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 8px;
+}
+.navigation ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.navigation ul li a:hover {
+    color: #62d5e8;
+    text-decoration: underline;
+}
+
+/* 主要視覺設計 */
+.mainvisual {
+    background-color: #62d5e8;
+    border-bottom: solid 3px #000000;
+}
+.mainvisual img {
+    display: block;
+    margin: 0 auto;
+}

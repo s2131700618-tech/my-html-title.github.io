@@ -1,41 +1,120 @@
-<html lang="zh-Hant">
-<head>
-  <meta charset="UTF-8"> <!-- 設定編碼，避免亂碼 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 手機/電腦都能適配 -->
-  <title>Android APP 下載頁面</title> <!-- 瀏覽器標題列文字 -->
-</head>
-<body>
-  <h1>Android APP 免費下載</h1> <!-- 頁面主標題 -->
-    <p>Minecraft 下載</p> <!-- 段落文字 -->
-</body>
-</html>
-<html>
-<head>
-    <title>链接按钮</title>
-    <style>
-        .button {
-            /* 基础按钮样式 */
-            display: inline-block; /* 允许设置宽度和高度，并保持内联流 */
-            padding: 0px 0px;
-            text-decoration: none; /* 移除链接下划线 */
-            background-color: #007bff; /* 按钮背景色 */
-            color: white; /* 文本颜色 */
-            border-radius: 5px; /* 圆角 */
-            border: none;
-            cursor: pointer; /* 鼠标悬停时显示指针 */
-            font-family: Arial, sans-serif;
-            font-size: 16px;
-        }
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+        <meta charset="utf-8">
+        <title>橡果合唱團  森林音樂會（圓山野鳥的歌聲與豎笛的和聲）</title>
+        <meta name="description" content="橡果合唱團是住在札幌市圓山的十姐妹、紅腹灰雀、黑啄木鳥這些野鳥與吹豎笛的健治所組成的合唱團。每個月會在圓山舉辦一次森林音樂會。">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>橡果合唱團</h1>
 
-        .button:hover {
-            background-color: #0056b3; /* 悬停时的背景色 */
-        }
-    </style>
-</head>
-<body>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#profile">簡介</a></li>
+                    <li><a href="#concert">森林音樂會</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="mainvisual">
+                <img src="img/mainvisual.png" alt="音樂會練習情況" width="740" height="340">
+            </div>
+            
+            <article id="profile">
+                <h2>簡介</h2>
 
-    <a href="https://liteapks.com/download/minecraft-11909" class="button" target="_blank">
-        <img src="minecraft-150x150.png" alt="">
-    </a>
-</body>
+                <p>歡迎來到橡果合唱團的官方網站。我的名字叫健治，我很喜歡吹豎笛，每天在森林練習時，很多鳥兒們都會跟我一起合唱。因為每天的練習，所以我變得很會吹豎笛，希望大家都來聽我跟鳥兒們的合唱，所以創立了橡果合唱團。</p>
+            </article>
+
+            <article id="concert">
+                <h2>森林音樂會</h2>
+
+                <p>橡果合唱團每個月都會舉辦一次森林音樂會，會場就在森林裡。我們覺得在藍天白雲與大自然的環境底下合唱是一件很開心的事。請大家務必來聽我們的合唱。</p>
+
+                <section>
+                    <h3>活動概要</h3>
+
+                    <table>
+                        <tr>
+                            <th>日期</th>
+                            <td>2016年9月11日（日）因雨停辦</td>
+                        </tr>
+                        <tr>
+                            <th>時間</th>
+                            <td>14:00〜16:00</td>
+                        </tr>
+                        <tr>
+                            <th>會費</th>
+                            <td>免費</td>
+                        </tr>
+                        <tr>
+                            <th>場地</th>
+                            <td>圓山原始森林  登山步道入口前廣場</td>
+                        </tr>
+                        <tr>
+                            <th>交通方式</th>
+                            <td>
+                                地下鐵東西線　圓山公園站徒歩15分鐘<br>
+                                <a href="https://goo.gl/maps/W1QAp" target="_blank">打開Google地圖</a>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section>
+                    <h3>演出者</h3>
+
+                    <section class="performer">
+                        <img src="img/performer-01.png" alt="" width="150" height="150">
+                        <h4>雪之妖精的十姐妹</h4>
+                        <p>叫聲：唧～唧～、啾哩哩<br>
+                        自述：夢想是與朋友共組偶像團體。請大家為我們加油。</p>
+                    </section>
+
+                    <section class="performer">
+                        <img src="img/performer-02.png" alt="" width="150" height="150">
+                        <h4>森林歌姬  紅腹灰雀</h4>
+                        <p>叫聲：Hi～Fi～<br>
+                        自述：雖然綽號是騙子，但其實是老實人。叫聲常被形容成悲傷的口哨聲。</p>
+                    </section>
+
+                    <section class="performer">
+                        <img src="img/performer-03.png" alt="" width="150" height="150">
+                        <h4>孤傲的演劇家  黑啄木鳥  </h4>
+                        <p>叫聲：kyororo～ <br>
+                        自述：身為天然紀念物的我，一定能以華麗的打擊樂讓音樂會更熱鬧！</p>
+                    </section>
+
+                    <section class="performer">
+                        <img src="img/performer-04.png" alt="" width="150" height="150">
+                        <h4>野鳥使者的徒弟  健治</h4>
+                        <p>擔綱：豎笛<br>
+                        自述：希望能與許多人一起聽鳥兒們的歌聲。</p>
+                    </section>
+                </section>
+
+                <section>
+                    <h3>曲目</h3>
+
+                    <ol>
+                        <li>粟鼠們的遊行（蜜雪兒庫拉拉作曲）</li>
+                        <li>野鳥使者的徒弟（卡巴可夫魯尼魯作曲）</li>
+                        <li>蜂鳥的慢板（諾比爾斯達奇1世作曲)</li>
+                        <li>隔壁的貓頭鷹先生（幾基達立斯瑪莉亞阿魯魯作曲）</li>
+                        <li>野調的小步舞曲（約翰尼斯瑪德瑪作曲）</li>
+                        <li>陽光灑落的舞曲（貝尼迪可特迪瑪奇尼作曲）</li>
+                        <li>橡果滾滾滾（青木存義作詞．梁田貞作曲）</li>
+                    </ol>
+                </section>
+            </article>
+        </main>
+        
+        <footer>
+            <p class="pagetop"><a href="#top">回到本頁開頭</a></p>
+            <p class="copyright"><small>&copy; Copyright 2016 橡果合唱團</small></p>
+        </footer>
+    </body>
 </html>
